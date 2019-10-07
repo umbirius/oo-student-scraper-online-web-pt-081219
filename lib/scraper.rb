@@ -30,7 +30,7 @@ class Scraper
 
   def self.scrape_profile_page(profile_url)
     index_page = Nokogiri::HTML(open(profile_url))
-    student = 
+    student = {}
       # :twitter => ,
       # :linkedin => ,
       # :github => ,
